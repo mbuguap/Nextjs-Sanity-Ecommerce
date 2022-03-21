@@ -66,7 +66,7 @@ export default function Home() {
       {loading ? (
         <CircularProgress />
       ) : error ? (
-        <Alert variant="danger">{error}</Alert>
+        <Alert variant='danger'>{error}</Alert>
       ) : (
         <Grid container spacing={3}>
           {products.map((product) => (

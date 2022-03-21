@@ -1,5 +1,5 @@
 const config = {
-  projectId: process.env.SANITY_PROJECT_ID,
+  projectId: 'y71r89sf',
   dataset: 'production',
 };
 export default config;
